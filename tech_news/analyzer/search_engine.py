@@ -5,8 +5,8 @@ from datetime import datetime
 # Requisito 7
 def search_by_title(title):
     list = []
-    for info in search_news({"title": {"$regex": title, "$options": "i"}}):
-        list.append((info['title'], info['url']))
+    for i in search_news({"title": {"$regex": title, "$options": "i"}}):
+        list.append((i['title'], i['url']))
     return list
 
 
@@ -24,4 +24,7 @@ def search_by_date(date):
 
 # Requisito 9
 def search_by_category(category):
-    """Seu código deve vir aqui"""
+    list = []
+    for i in search_news({"category": {"$regex": category, "$options": "i"}}):
+        list.append((i['title'], i['url']))
+    return list
