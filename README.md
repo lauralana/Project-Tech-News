@@ -1,8 +1,5 @@
 # Tech News
 
-[Trybe](https://www.betrybe.com/) é uma escola de tecnologia focada na formação de Desenvolvedores Web. Este projeto foi proposto como uma atividade para aprimorar os estudos em Ciência da Computação.
-
-
 ## Sobre :
 Este é um projeto que utiliza raspagem de dados para coletar notícias sobre tecnologia do blog do Trybe.
 
